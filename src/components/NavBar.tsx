@@ -1,7 +1,7 @@
 import React from 'react'
 import cardStyles from '../styles/navbar.module.css'
 import {ImSearch} from 'react-icons/im'
-import {FiMenu} from 'react-icons/Fi'
+import {SlMenu} from 'react-icons/sl'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 
@@ -31,7 +31,7 @@ const  NavBar: React.FC<nav> =({name, onSearch}) => {
             <main className={cardStyles.main}>
             <div className={cardStyles.navbar}>
             <div>
-            <FiMenu className={cardStyles.menu}/>
+            <SlMenu className={cardStyles.menu}/>
             </div>
             <div>
             <h1 className={cardStyles.header}>torre<span className={cardStyles.other}>.co</span></h1>
