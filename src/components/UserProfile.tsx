@@ -1,6 +1,6 @@
 import React from 'react'
 import userStyle from '../styles/userprofile.module.css'
-import {FiHexagon} from 'react-icons/Fi'
+import {FiHexagon} from 'react-icons/fi'
 import Image from 'next/image';
 import { userAgent } from 'next/server';
 
