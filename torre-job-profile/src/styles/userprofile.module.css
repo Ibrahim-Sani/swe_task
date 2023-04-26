@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+.container{
+    width: 100%;
+}
+
+.hexagon{
+    width: 15rem;
+    color: rgb(108, 106, 106);
+    height: 15rem;
+    position: relative;
+    z-index: 3rem;
+    margin-left: 42%;
+    margin-top: 5rem;
+}
+#img{
+    width: 12rem;
+    border-radius: 14rem;
+    margin-top: -13.5rem;
+    margin-left: 43.5%;
+}
+.name{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
+    font-weight:500;
+    margin-top:1rem;
+}

@@ -1,0 +1,14 @@
+.skill{
+    color: rgb(241,235,235)smoke;
+    font-size: 35px;
+    margin-left:  1rem;
+    margin-top: 1rem;
+}
+
+#influence{
+    color: rgb(241,235,235);
+    font-size: 30px;
+    margin-left:  1rem;
+    margin-top: 1rem;
+    white-space: none;
+}
