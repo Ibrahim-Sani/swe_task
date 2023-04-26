@@ -9,9 +9,16 @@ import indexStyle from '../styles/index.module.css'
 
 
 const inter = Inter({ subsets: ['latin'] })
+type home = {  
+  proficiency: string[],
+  master: string[],
+  personName: string,
+  personPicture: string,
+  valueTwo: string|undefined;
+}
 
 
-export default function Home({proficiency, master, personName, personPicture}) {
+export default function Home({proficiency, master, personName, personPicture, valueTwo}) {
   const [value, getValue] = useState('')
   
   const searchFunction = (inputValue: string) => {
@@ -24,12 +31,15 @@ export default function Home({proficiency, master, personName, personPicture}) {
     <NavBar name = 'data' onSearch={searchFunction} />
     <UserProfile data={personName} image = {personPicture} />
     <SkillProfile name="Master/Influencer" header="Skills and Interest:"  />
+    <div>
+      {valueTwo}
+    </div>
     <div >
       <div className={indexStyle.master}>
         {
           master.map((element: any) => (
             <div key={element.id}>
-              <button className={indexStyle.button}>{element.name}</button>
+              <button className={indexStyle.button}>{element.name !== undefined ? element.name : "Username doesn't exist"}</button>
             </div>
           ))
         }
@@ -41,7 +51,7 @@ export default function Home({proficiency, master, personName, personPicture}) {
         {
           proficiency.map((element: any) => (
             <div key={element.id}>
-              <button className={indexStyle.button}>{element.name}</button>
+              <button className={indexStyle.button}>{element.name !== undefined ? element.name : "Username doesn't exist"}</button>
             </div>
           ))
         }
@@ -56,39 +66,49 @@ export default function Home({proficiency, master, personName, personPicture}) {
 }
 
 export async function getServerSideProps(context: { query: { input: string } }) {
-  const username = 'dibrahimsani'
-  let person
-  let proficiency;
-  let master;
-  let personData;
-  let personName;
-  let personPicture;
   const inputValue = context.query.input || ''
   console.log(inputValue)
-  if(inputValue === undefined){
-    return
-  }else{
-    const response = await axios.get(`https://torre.bio/api/bios/${inputValue}`);
-    const data = await response.data;
-    person = Object.values(data)[2]
-    personData = Object.values(data)[0]
-    
-    proficiency = person.filter(element =>{
-      return element.proficiency === 'proficient'
-    } )
-    master = person.filter(element =>{
-      return element.proficiency === 'expert'
-    })
-    personName = personData.name
-    personPicture = personData.picture
-    console.log(proficiency)
-    //console.log(master)
-    //console.log(personData.name)
-    //console.log(personData.picture)
-
-
+  let person: any
+  let proficiency;
+  let master;
+  let personData: any
+  let personName: any
+  let personPicture;
+  let valueTwo: string = '';
+  try {
+    if(inputValue === undefined){
+      return
+    }else{
+      const response = await axios.get(`https://torre.bio/api/bios/${inputValue}`);
+      if(response === undefined){
+        const data = {message: 'No value gotten', message1: 'Username Error', message3: 'Username does not exist'}
+        person = Object.values(data)
+      }else{
+        const data = await response.data;
+        person = Object.values(data)[2]
+        personData = Object.values(data)[0]
+        
+        proficiency = person.filter((element: any) =>{
+          return element.proficiency === 'proficient'
+        } )
+        master = person.filter((element: Record<string, unknown>) =>{
+          return element.proficiency === 'expert'
+        })
+        personName = personData.name
+        personPicture = personData.picture
+        console.log(proficiency)
+      }
+      
+    }
+  }catch(err){
+    if(err){
+      return valueTwo = "Username doesn't exist, try again"
+    }
   }
-  return { props: { proficiency, master, personName, personPicture } };
+
+
+  
+  return { props: { proficiency, master, personName, personPicture, valueTwo } };
   
   
 
