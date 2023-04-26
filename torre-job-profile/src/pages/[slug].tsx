@@ -6,14 +6,12 @@ function MyPage({ data }) {
         <div>
             <h1>My Page</h1>
             <ul>
-                {data.map((item:any) => (
-                    <li key={item.id}>{item.title}</li>
-                ))}
+                <p>This is a slug page</p>
             </ul>
         </div>
     );
 }
-export aync function getServerSideProps() {
+export async function getServerSideProps() {
 
     const response = await axios.get('https://my-api.com/my-data');
     const data = response.data;

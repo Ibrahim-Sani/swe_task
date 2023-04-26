@@ -2,7 +2,7 @@
 
 .main{
     background-color: #3f3f41;
-    height: 4rem;
+    height: 8rem;
     width: 100%;
    color: black;
 }
@@ -12,7 +12,7 @@
     height: 3.7rem;
     width: 100%;
     box-shadow: #242425 1rem 0.4rem 0.8rem;
-    position: fixed;
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -92,3 +92,79 @@
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
+/* Media Queries for iPhone 6/7/8, iPhone X, and iPhone 6/7/8 Plus */
+@media only screen and (max-width: 375px), (max-width: 414px) {
+    .header {
+      font-size: 24px;
+    }
+  
+    #input {
+      margin-left: 1rem;
+      width: 80%;
+    }
+  
+    .btn {
+      margin-left: -3.5rem;
+    }
+  
+    .imSearch {
+      margin-left: -4.5rem;
+    }
+  
+    #info {
+      font-size: 18px;
+      margin-left: 1rem;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 360px), (max-width: 412px) {
+    .header {
+      font-size: 10px;
+      margin-right: -5rem;
+    }
+  
+    #input {
+      margin-left: 1rem;
+      width: 60%;
+    }
+  
+    .btn {
+      margin-left: -3.5rem;
+    }
+  
+    .imSearch {
+      margin-left: -4.5rem;
+    }
+  
+    #info {
+      font-size: 18px;
+      margin-left: 1rem;
+    }
+  }
+  
+  /* Media Queries for iPad and iPad Pro */
+  @media only screen and (max-width: 768px), (max-width: 1024px) {
+    .header {
+      font-size: 32px;
+    }
+  
+    #input {
+      margin-left: 5rem;
+      width: 60%;
+    }
+  
+    .btn {
+      margin-left: -3.2rem;
+    }
+  
+    .imSearch {
+      margin-left: -4.2rem;
+    }
+  
+    #info {
+      font-size: 22px;
+      margin-left: 2rem;
+    }
+  }
+  

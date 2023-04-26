@@ -5,6 +5,7 @@ import UserProfile from '@/components/UserProfile'
 import SkillProfile from '@/components/SkillProfile'
 import axios from 'axios'
 import { useState } from 'react'
+import indexStyle from '../styles/index.module.css'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,7 +23,31 @@ export default function Home({proficiency, master, personName, personPicture}) {
   <div>
     <NavBar name = 'data' onSearch={searchFunction} />
     <UserProfile data={personName} image = {personPicture} />
-    <SkillProfile  />
+    <SkillProfile name="Master/Influencer" header="Skills and Interest:"  />
+    <div >
+      <div className={indexStyle.master}>
+        {
+          master.map((element: any) => (
+            <div key={element.id}>
+              <button className={indexStyle.button}>{element.name}</button>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+    <SkillProfile name="Proficiency" header=""  />
+    <div >
+      <div className={indexStyle.master}>
+        {
+          proficiency.map((element: any) => (
+            <div key={element.id}>
+              <button className={indexStyle.button}>{element.name}</button>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+    
     
   </div>
   {/*This is the end of the container */}
@@ -56,7 +81,7 @@ export async function getServerSideProps(context: { query: { input: string } }) 
     })
     personName = personData.name
     personPicture = personData.picture
-    //console.log(proficiency)
+    console.log(proficiency)
     //console.log(master)
     //console.log(personData.name)
     //console.log(personData.picture)
