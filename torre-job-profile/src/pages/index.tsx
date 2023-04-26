@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import NavBar from '../components/NavBar'
 import UserProfile from '@/components/UserProfile'
 import SkillProfile from '@/components/SkillProfile'
@@ -8,7 +7,6 @@ import { useState } from 'react'
 import indexStyle from '../styles/index.module.css'
 
 
-const inter = Inter({ subsets: ['latin'] })
 type home = {  
   proficiency: string[],
   master: string[],
@@ -18,7 +16,7 @@ type home = {
 }
 
 
-export default function Home({proficiency, master, personName, personPicture, valueTwo}) {
+const Home: React.FC<home> = ({proficiency, master, personName, personPicture, valueTwo}) => {
   const [value, getValue] = useState('')
   
   const searchFunction = (inputValue: string) => {
@@ -110,7 +108,5 @@ export async function getServerSideProps(context: { query: { input: string } }) 
   
   return { props: { proficiency, master, personName, personPicture, valueTwo } };
   
-  
-
-  
 }
+export default Home;

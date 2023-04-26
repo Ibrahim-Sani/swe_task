@@ -4,9 +4,12 @@ import {FiHexagon} from 'react-icons/Fi'
 import Image from 'next/image';
 import { userAgent } from 'next/server';
 
+type profile = {
+    data: string,
+    image: string
+}
 
-
-function UserProfile({data, image}) {
+const UserProfile: React.FC<profile> =({data, image}) => {
   return (
         <main>
             <div className={userStyle.container}>

@@ -2,7 +2,12 @@ import React from 'react'
 import skillcard from '../styles/SkillProfile.module.css'
 import { BiCycling } from 'react-icons/bi'
 
-function SkillProfile({name, header}) {
+type skills = {
+    name: string,
+    header: string
+}
+
+const SkillProfile: React.FC<skills> =({name, header}) => {
     return (
         <main>
             <div>

@@ -5,7 +5,12 @@ import {FiMenu} from 'react-icons/Fi'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 
-function NavBar({name, onSearch}) {
+type nav = {
+    name: string,
+    onSearch: any
+}
+
+const  NavBar: React.FC<nav> =({name, onSearch}) => {
     const[inputField, inputFieldHandler] = useState('')
     const router = useRouter()
     const searchHandler = (e: any) => {

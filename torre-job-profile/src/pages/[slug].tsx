@@ -1,7 +1,11 @@
 import cardStyles from '../styles/card.module.css'
 import axios from 'axios';
 
-function MyPage({ data }) {
+type profile = {
+    data: string,
+}
+
+const MyPage: React.FC<profile> =({ data }) => {
     return (
         <div>
             <h1>My Page</h1>
