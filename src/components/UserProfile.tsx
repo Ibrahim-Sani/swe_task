@@ -1,6 +1,6 @@
 import React from 'react'
 import userStyle from '../styles/userprofile.module.css'
-import {BsHexagon} from 'react-icons/Bs'
+import {FiHexagon} from 'react-icons/Fi'
 import Image from 'next/image';
 import { userAgent } from 'next/server';
 
@@ -13,7 +13,7 @@ const UserProfile: React.FC<profile> =({data, image}) => {
   return (
         <main>
             <div className={userStyle.container}>
-                <BsHexagon className={userStyle.hexagon} />
+                <FiHexagon className={userStyle.hexagon} />
                 <img src={image !== undefined ? image : "User doesn't exist"} alt = "profile-pic" width={80} height={80} id={userStyle.img}/>
                 <div>
                     <center>
