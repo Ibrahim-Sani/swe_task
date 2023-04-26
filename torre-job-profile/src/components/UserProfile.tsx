@@ -6,12 +6,12 @@ import { userAgent } from 'next/server';
 
 
 
-function UserProfile({data}) {
+function UserProfile({data, image}) {
   return (
         <main>
             <div className={userStyle.container}>
                 <FiHexagon className={userStyle.hexagon} />
-                <Image src="/owner.png" alt = "profile-pic" width={80} height={80} id={userStyle.img}/>
+                <img src={image} alt = "profile-pic" width={80} height={80} id={userStyle.img}/>
                 <div>
                     <center>
                         <h1 className={userStyle.name}>{data}</h1>

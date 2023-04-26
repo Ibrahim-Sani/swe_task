@@ -8,10 +8,9 @@ function SkillProfile() {
             <div>
                 <h3 className={skillcard.skill}>Skills and Interests:</h3>
             </div>
-            <div>
+            <div className={skillcard.influence}>
                 <h3 id={skillcard.influence}>
-                    <BiCycling />
-                    Master/ Influencer:
+                    <BiCycling /> Master/ Influencer:
                 </h3>
             </div>
         </main>
