@@ -1,0 +1,25 @@
+.skill{
+    color: rgb(241,235,235)smoke;
+    font-size: 25px;
+    margin-left:  1rem;
+    margin-top: 1rem;
+}
+.influence{
+    white-space: none;
+    display: inline-flex;
+    flex-direction: row;
+}
+#influence{
+    color: rgba(110, 122, 122);
+    font-size: 20px;
+    margin-left:  1rem;
+    margin-top: 1rem;
+    white-space: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+#bike{
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+}
