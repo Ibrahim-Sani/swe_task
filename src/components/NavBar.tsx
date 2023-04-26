@@ -1,5 +1,5 @@
 import React from 'react'
-import cardStyles from '../styles/NavBar.module.css'
+import cardStyles from '../styles/navbar.module.css'
 import {ImSearch} from 'react-icons/im'
 import {SlMenu} from 'react-icons/sl'
 import { useEffect, useState } from 'react'

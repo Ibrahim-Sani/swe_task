@@ -1,5 +1,5 @@
 import React from 'react'
-import skillcard from '../styles/SkillProfile.module.css'
+import skillcard from '../styles/skillprofile.module.css'
 import { BiCycling } from 'react-icons/bi'
 
 type skills = {
