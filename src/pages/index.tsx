@@ -4,7 +4,7 @@ import UserProfile from '@/components/UserProfile'
 import SkillProfile from '@/components/SkillProfile'
 import axios from 'axios'
 import { useState } from 'react'
-import indexStyle from '../styles/index.module.css'
+import indexStyle from '../styles/Index.module.css'
 
 
 type home = {  
