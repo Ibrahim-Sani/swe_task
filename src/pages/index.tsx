@@ -105,8 +105,8 @@ export async function getServerSideProps(context: { query: { input: string } }) 
   }
 
 
-  
-  return { props: { proficiency, master, personName, personPicture, valueTwo } };
+  console.log(personName)
+  return { props: { proficiency, master, personName, personPicture}};
   
 }
 export default Home;
