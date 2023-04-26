@@ -1,416 +1,116 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 405;
-exports.ids = [405];
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
 exports.modules = {
 
-/***/ 851:
+/***/ "./src/styles/SkillProfile.module.css":
+/*!********************************************!*\
+  !*** ./src/styles/SkillProfile.module.css ***!
+  \********************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"skill": "SkillProfile_skill__sMeY3",
-	"influence": "SkillProfile_influence__ncFEw",
-	"bike": "SkillProfile_bike__jDDcf"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"skill\": \"SkillProfile_skill__sMeY3\",\n\t\"influence\": \"SkillProfile_influence__ncFEw\",\n\t\"bike\": \"SkillProfile_bike__jDDcf\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL1NraWxsUHJvZmlsZS5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL2NhcmQtYXBwLy4vc3JjL3N0eWxlcy9Ta2lsbFByb2ZpbGUubW9kdWxlLmNzcz85MTExIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcInNraWxsXCI6IFwiU2tpbGxQcm9maWxlX3NraWxsX19zTWVZM1wiLFxuXHRcImluZmx1ZW5jZVwiOiBcIlNraWxsUHJvZmlsZV9pbmZsdWVuY2VfX25jRkV3XCIsXG5cdFwiYmlrZVwiOiBcIlNraWxsUHJvZmlsZV9iaWtlX19qRERjZlwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/styles/SkillProfile.module.css\n");
 
 /***/ }),
 
-/***/ 498:
+/***/ "./src/styles/index.module.css":
+/*!*************************************!*\
+  !*** ./src/styles/index.module.css ***!
+  \*************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"master": "styles_master__eAlhv",
-	"button": "styles_button__BZg0Z"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"master\": \"styles_master__eAlhv\",\n\t\"button\": \"styles_button__BZg0Z\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL2luZGV4Lm1vZHVsZS5jc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL2NhcmQtYXBwLy4vc3JjL3N0eWxlcy9pbmRleC5tb2R1bGUuY3NzPzZlNzgiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwibWFzdGVyXCI6IFwic3R5bGVzX21hc3Rlcl9fZUFsaHZcIixcblx0XCJidXR0b25cIjogXCJzdHlsZXNfYnV0dG9uX19CWmcwWlwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/styles/index.module.css\n");
 
 /***/ }),
 
-/***/ 937:
+/***/ "./src/styles/navbar.module.css":
+/*!**************************************!*\
+  !*** ./src/styles/navbar.module.css ***!
+  \**************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"main": "navbar_main__Cx8Do",
-	"navbar": "navbar_navbar__8tj4O",
-	"menu": "navbar_menu__Tnmyf",
-	"header": "navbar_header__Z7TZq",
-	"other": "navbar_other__ir4II",
-	"input": "navbar_input__5vYwk",
-	"btn": "navbar_btn__W8gTb",
-	"imSearch": "navbar_imSearch__Hdnjo",
-	"info": "navbar_info__A36uz"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"main\": \"navbar_main__Cx8Do\",\n\t\"navbar\": \"navbar_navbar__8tj4O\",\n\t\"menu\": \"navbar_menu__Tnmyf\",\n\t\"header\": \"navbar_header__Z7TZq\",\n\t\"other\": \"navbar_other__ir4II\",\n\t\"input\": \"navbar_input__5vYwk\",\n\t\"btn\": \"navbar_btn__W8gTb\",\n\t\"imSearch\": \"navbar_imSearch__Hdnjo\",\n\t\"info\": \"navbar_info__A36uz\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL25hdmJhci5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL2NhcmQtYXBwLy4vc3JjL3N0eWxlcy9uYXZiYXIubW9kdWxlLmNzcz8wNGZhIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcIm1haW5cIjogXCJuYXZiYXJfbWFpbl9fQ3g4RG9cIixcblx0XCJuYXZiYXJcIjogXCJuYXZiYXJfbmF2YmFyX184dGo0T1wiLFxuXHRcIm1lbnVcIjogXCJuYXZiYXJfbWVudV9fVG5teWZcIixcblx0XCJoZWFkZXJcIjogXCJuYXZiYXJfaGVhZGVyX19aN1RacVwiLFxuXHRcIm90aGVyXCI6IFwibmF2YmFyX290aGVyX19pcjRJSVwiLFxuXHRcImlucHV0XCI6IFwibmF2YmFyX2lucHV0X181dll3a1wiLFxuXHRcImJ0blwiOiBcIm5hdmJhcl9idG5fX1c4Z1RiXCIsXG5cdFwiaW1TZWFyY2hcIjogXCJuYXZiYXJfaW1TZWFyY2hfX0hkbmpvXCIsXG5cdFwiaW5mb1wiOiBcIm5hdmJhcl9pbmZvX19BMzZ1elwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/styles/navbar.module.css\n");
 
 /***/ }),
 
-/***/ 782:
+/***/ "./src/styles/userprofile.module.css":
+/*!*******************************************!*\
+  !*** ./src/styles/userprofile.module.css ***!
+  \*******************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"container": "userprofile_container__xOgjX",
-	"hexagon": "userprofile_hexagon__bzywW",
-	"img": "userprofile_img__Iji9d",
-	"name": "userprofile_name__ASUhn"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"container\": \"userprofile_container__xOgjX\",\n\t\"hexagon\": \"userprofile_hexagon__bzywW\",\n\t\"img\": \"userprofile_img__Iji9d\",\n\t\"name\": \"userprofile_name__ASUhn\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL3VzZXJwcm9maWxlLm1vZHVsZS5jc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jYXJkLWFwcC8uL3NyYy9zdHlsZXMvdXNlcnByb2ZpbGUubW9kdWxlLmNzcz9hNjM5Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImNvbnRhaW5lclwiOiBcInVzZXJwcm9maWxlX2NvbnRhaW5lcl9feE9nalhcIixcblx0XCJoZXhhZ29uXCI6IFwidXNlcnByb2ZpbGVfaGV4YWdvbl9fYnp5d1dcIixcblx0XCJpbWdcIjogXCJ1c2VycHJvZmlsZV9pbWdfX0lqaTlkXCIsXG5cdFwibmFtZVwiOiBcInVzZXJwcm9maWxlX25hbWVfX0FTVWhuXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/styles/userprofile.module.css\n");
 
 /***/ }),
 
-/***/ 681:
+/***/ "./src/components/NavBar.tsx":
+/*!***********************************!*\
+  !*** ./src/components/NavBar.tsx ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ components_NavBar)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
-// EXTERNAL MODULE: ./src/styles/navbar.module.css
-var navbar_module = __webpack_require__(937);
-var navbar_module_default = /*#__PURE__*/__webpack_require__.n(navbar_module);
-;// CONCATENATED MODULE: external "react-icons/im"
-const im_namespaceObject = require("react-icons/im");
-// EXTERNAL MODULE: external "react-icons/Fi"
-var Fi_ = __webpack_require__(253);
-;// CONCATENATED MODULE: external "next/router"
-const router_namespaceObject = require("next/router");
-;// CONCATENATED MODULE: ./src/components/NavBar.tsx
-
-
-
-
-
-
-
-const NavBar = ({ name , onSearch  })=>{
-    const [inputField, inputFieldHandler] = (0,external_react_.useState)("");
-    const router = (0,router_namespaceObject.useRouter)();
-    const searchHandler = (e)=>{
-        inputFieldHandler(e.target.value);
-    };
-    const buttonHandler = (e)=>{
-        e.preventDefault();
-        router.push(`/?input=${encodeURIComponent(inputField)}`);
-        onSearch(inputField);
-        inputFieldHandler;
-    };
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        children: /*#__PURE__*/ jsx_runtime_.jsx("main", {
-            className: (navbar_module_default()).main,
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (navbar_module_default()).navbar,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(Fi_.FiMenu, {
-                            className: (navbar_module_default()).menu
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
-                            className: (navbar_module_default()).header,
-                            children: [
-                                "torre",
-                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                    className: (navbar_module_default()).other,
-                                    children: ".co"
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                type: "text",
-                                name: "search",
-                                value: inputField,
-                                onChange: searchHandler,
-                                id: (navbar_module_default()).input,
-                                title: "input your search"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                onClick: buttonHandler,
-                                className: (navbar_module_default()).btn,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(im_namespaceObject.ImSearch, {
-                                    className: (navbar_module_default()).imSearch
-                                })
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                            id: (navbar_module_default()).info,
-                            children: "SIGN IN"
-                        })
-                    })
-                ]
-            })
-        })
-    });
-};
-/* harmony default export */ const components_NavBar = (NavBar);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/navbar.module.css */ \"./src/styles/navbar.module.css\");\n/* harmony import */ var _styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var react_icons_im__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/im */ \"react-icons/im\");\n/* harmony import */ var react_icons_im__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_im__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_icons_Fi__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/Fi */ \"react-icons/Fi\");\n/* harmony import */ var react_icons_Fi__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_Fi__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\n\nconst NavBar = ({ name , onSearch  })=>{\n    const [inputField, inputFieldHandler] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"\");\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_4__.useRouter)();\n    const searchHandler = (e)=>{\n        inputFieldHandler(e.target.value);\n    };\n    const buttonHandler = (e)=>{\n        e.preventDefault();\n        router.push(`/?input=${encodeURIComponent(inputField)}`);\n        onSearch(inputField);\n        inputFieldHandler;\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n            className: (_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default().main),\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default().navbar),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_Fi__WEBPACK_IMPORTED_MODULE_3__.FiMenu, {\n                            className: (_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default().menu)\n                        }, void 0, false, {\n                            fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                            lineNumber: 34,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                        lineNumber: 33,\n                        columnNumber: 13\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                            className: (_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default().header),\n                            children: [\n                                \"torre\",\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                    className: (_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default().other),\n                                    children: \".co\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                                    lineNumber: 37,\n                                    columnNumber: 52\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                            lineNumber: 37,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                        lineNumber: 36,\n                        columnNumber: 13\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                type: \"text\",\n                                name: \"search\",\n                                value: inputField,\n                                onChange: searchHandler,\n                                id: (_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default().input),\n                                title: \"input your search\"\n                            }, void 0, false, {\n                                fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                                lineNumber: 40,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                onClick: buttonHandler,\n                                className: (_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default().btn),\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_im__WEBPACK_IMPORTED_MODULE_2__.ImSearch, {\n                                    className: (_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default().imSearch)\n                                }, void 0, false, {\n                                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                                    lineNumber: 41,\n                                    columnNumber: 73\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                                lineNumber: 41,\n                                columnNumber: 14\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                        lineNumber: 39,\n                        columnNumber: 13\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            id: (_styles_navbar_module_css__WEBPACK_IMPORTED_MODULE_5___default().info),\n                            children: \"SIGN IN\"\n                        }, void 0, false, {\n                            fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                            lineNumber: 45,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                        lineNumber: 44,\n                        columnNumber: 13\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n                lineNumber: 32,\n                columnNumber: 13\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n            lineNumber: 31,\n            columnNumber: 13\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/NavBar.tsx\",\n        lineNumber: 29,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavBar);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9OYXZCYXIudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQXlCO0FBQzJCO0FBQ2I7QUFDRjtBQUNNO0FBQ0o7QUFPdkMsTUFBT00sU0FBdUIsQ0FBQyxFQUFDQyxLQUFJLEVBQUVDLFNBQVEsRUFBQyxHQUFLO0lBQ2hELE1BQUssQ0FBQ0MsWUFBWUMsa0JBQWtCLEdBQUdOLCtDQUFRQSxDQUFDO0lBQ2hELE1BQU1PLFNBQVNOLHNEQUFTQTtJQUN4QixNQUFNTyxnQkFBZ0IsQ0FBQ0MsSUFBVztRQUM5Qkgsa0JBQWtCRyxFQUFFQyxNQUFNLENBQUNDLEtBQUs7SUFDcEM7SUFDQSxNQUFNQyxnQkFBZ0IsQ0FBQ0gsSUFBVztRQUM5QkEsRUFBRUksY0FBYztRQUNoQk4sT0FBT08sSUFBSSxDQUFDLENBQUMsUUFBUSxFQUFFQyxtQkFBbUJWLFlBQVksQ0FBQztRQUN2REQsU0FBU0M7UUFDVEM7SUFDSjtJQUNBLHFCQUlJLDhEQUFDVTtrQkFFRyw0RUFBQ0M7WUFBS0MsV0FBV3JCLHVFQUFlO3NCQUNoQyw0RUFBQ21CO2dCQUFJRSxXQUFXckIseUVBQWlCOztrQ0FDakMsOERBQUNtQjtrQ0FDRCw0RUFBQ2pCLGtEQUFNQTs0QkFBQ21CLFdBQVdyQix1RUFBZTs7Ozs7Ozs7Ozs7a0NBRWxDLDhEQUFDbUI7a0NBQ0QsNEVBQUNLOzRCQUFHSCxXQUFXckIseUVBQWlCOztnQ0FBRTs4Q0FBSyw4REFBQzBCO29DQUFLTCxXQUFXckIsd0VBQWdCOzhDQUFFOzs7Ozs7Ozs7Ozs7Ozs7OztrQ0FFMUUsOERBQUNtQjs7MENBQ0QsOERBQUNTO2dDQUFNQyxNQUFLO2dDQUFPdkIsTUFBSztnQ0FBU1EsT0FBT047Z0NBQVlzQixVQUFZbkI7Z0NBQWVvQixJQUFJL0Isd0VBQWdCO2dDQUFFZ0MsT0FBTTs7Ozs7OzBDQUMxRyw4REFBQ0M7Z0NBQU9DLFNBQVNuQjtnQ0FBZU0sV0FBV3JCLHNFQUFjOzBDQUFFLDRFQUFDQyxvREFBUUE7b0NBQUNvQixXQUFXckIsMkVBQW1COzs7Ozs7Ozs7Ozs7Ozs7OztrQ0FHcEcsOERBQUNtQjtrQ0FDRCw0RUFBQ2tCOzRCQUFHTixJQUFJL0IsdUVBQWU7c0NBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQVlqQztBQUVKLGlFQUFlSyxNQUFNQSxFQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyZC1hcHAvLi9zcmMvY29tcG9uZW50cy9OYXZCYXIudHN4P2Q5ZWEiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IGNhcmRTdHlsZXMgZnJvbSAnLi4vc3R5bGVzL25hdmJhci5tb2R1bGUuY3NzJ1xuaW1wb3J0IHtJbVNlYXJjaH0gZnJvbSAncmVhY3QtaWNvbnMvaW0nXG5pbXBvcnQge0ZpTWVudX0gZnJvbSAncmVhY3QtaWNvbnMvRmknXG5pbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcidcblxudHlwZSBuYXYgPSB7XG4gICAgbmFtZTogc3RyaW5nLFxuICAgIG9uU2VhcmNoOiBhbnlcbn1cblxuY29uc3QgIE5hdkJhcjogUmVhY3QuRkM8bmF2PiA9KHtuYW1lLCBvblNlYXJjaH0pID0+IHtcbiAgICBjb25zdFtpbnB1dEZpZWxkLCBpbnB1dEZpZWxkSGFuZGxlcl0gPSB1c2VTdGF0ZSgnJylcbiAgICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKVxuICAgIGNvbnN0IHNlYXJjaEhhbmRsZXIgPSAoZTogYW55KSA9PiB7XG4gICAgICAgIGlucHV0RmllbGRIYW5kbGVyKGUudGFyZ2V0LnZhbHVlKSAgIFxuICAgIH1cbiAgICBjb25zdCBidXR0b25IYW5kbGVyID0gKGU6IGFueSkgPT4ge1xuICAgICAgICBlLnByZXZlbnREZWZhdWx0KClcbiAgICAgICAgcm91dGVyLnB1c2goYC8/aW5wdXQ9JHtlbmNvZGVVUklDb21wb25lbnQoaW5wdXRGaWVsZCl9YClcbiAgICAgICAgb25TZWFyY2goaW5wdXRGaWVsZClcbiAgICAgICAgaW5wdXRGaWVsZEhhbmRsZXJcbiAgICB9XG4gICAgcmV0dXJuIChcblxuICAgICAgICBcbiAgICAgICAgXG4gICAgICAgIDxkaXY+XG4gICAgICAgICAgICB7LyogTWFpbiBibG9jayBzdGFydHMgaGVyZSAqL31cbiAgICAgICAgICAgIDxtYWluIGNsYXNzTmFtZT17Y2FyZFN0eWxlcy5tYWlufT5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtjYXJkU3R5bGVzLm5hdmJhcn0+XG4gICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPEZpTWVudSBjbGFzc05hbWU9e2NhcmRTdHlsZXMubWVudX0vPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT17Y2FyZFN0eWxlcy5oZWFkZXJ9PnRvcnJlPHNwYW4gY2xhc3NOYW1lPXtjYXJkU3R5bGVzLm90aGVyfT4uY288L3NwYW4+PC9oMT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxpbnB1dCB0eXBlPVwidGV4dFwiIG5hbWU9XCJzZWFyY2hcIiB2YWx1ZT17aW5wdXRGaWVsZH0gb25DaGFuZ2UgPXsgc2VhcmNoSGFuZGxlcn0gaWQ9e2NhcmRTdHlsZXMuaW5wdXR9IHRpdGxlPVwiaW5wdXQgeW91ciBzZWFyY2hcIiAvPlxuICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17YnV0dG9uSGFuZGxlcn0gY2xhc3NOYW1lPXtjYXJkU3R5bGVzLmJ0bn0+PEltU2VhcmNoIGNsYXNzTmFtZT17Y2FyZFN0eWxlcy5pbVNlYXJjaH0gLz48L2J1dHRvbj5cbiAgICAgICAgICAgICBcbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxoMiBpZD17Y2FyZFN0eWxlcy5pbmZvfT5cbiAgICAgICAgICAgIFNJR04gSU5cbiAgICAgICAgICAgIDwvaDI+XG4gICAgICAgICAgICBcbiAgICAgICAgICAgIFxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgXG4gICAgICAgICAgICA8L21haW4+XG4gICAgICAgICAgICB7LyogTWFpbiBibG9jayBlbmRzIGhlcmUgKi99XG4gICAgICAgIDwvZGl2PlxuICAgICkgICBcbiAgICB9XG5cbmV4cG9ydCBkZWZhdWx0IE5hdkJhciJdLCJuYW1lcyI6WyJSZWFjdCIsImNhcmRTdHlsZXMiLCJJbVNlYXJjaCIsIkZpTWVudSIsInVzZVN0YXRlIiwidXNlUm91dGVyIiwiTmF2QmFyIiwibmFtZSIsIm9uU2VhcmNoIiwiaW5wdXRGaWVsZCIsImlucHV0RmllbGRIYW5kbGVyIiwicm91dGVyIiwic2VhcmNoSGFuZGxlciIsImUiLCJ0YXJnZXQiLCJ2YWx1ZSIsImJ1dHRvbkhhbmRsZXIiLCJwcmV2ZW50RGVmYXVsdCIsInB1c2giLCJlbmNvZGVVUklDb21wb25lbnQiLCJkaXYiLCJtYWluIiwiY2xhc3NOYW1lIiwibmF2YmFyIiwibWVudSIsImgxIiwiaGVhZGVyIiwic3BhbiIsIm90aGVyIiwiaW5wdXQiLCJ0eXBlIiwib25DaGFuZ2UiLCJpZCIsInRpdGxlIiwiYnV0dG9uIiwib25DbGljayIsImJ0biIsImltU2VhcmNoIiwiaDIiLCJpbmZvIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/NavBar.tsx\n");
 
 /***/ }),
 
-/***/ 329:
+/***/ "./src/components/SkillProfile.tsx":
+/*!*****************************************!*\
+  !*** ./src/components/SkillProfile.tsx ***!
+  \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ components_SkillProfile)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
-// EXTERNAL MODULE: ./src/styles/SkillProfile.module.css
-var SkillProfile_module = __webpack_require__(851);
-var SkillProfile_module_default = /*#__PURE__*/__webpack_require__.n(SkillProfile_module);
-;// CONCATENATED MODULE: external "react-icons/bi"
-const bi_namespaceObject = require("react-icons/bi");
-;// CONCATENATED MODULE: ./src/components/SkillProfile.tsx
-
-
-
-
-const SkillProfile = ({ name , header  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                children: /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                    className: (SkillProfile_module_default()).skill,
-                    children: header
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (SkillProfile_module_default()).influence,
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
-                    id: (SkillProfile_module_default()).influence,
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(bi_namespaceObject.BiCycling, {
-                            id: (SkillProfile_module_default()).bike
-                        }),
-                        " ",
-                        name,
-                        ":"
-                    ]
-                })
-            })
-        ]
-    });
-};
-/* harmony default export */ const components_SkillProfile = (SkillProfile);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_SkillProfile_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/SkillProfile.module.css */ \"./src/styles/SkillProfile.module.css\");\n/* harmony import */ var _styles_SkillProfile_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_SkillProfile_module_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react_icons_bi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/bi */ \"react-icons/bi\");\n/* harmony import */ var react_icons_bi__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_bi__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nconst SkillProfile = ({ name , header  })=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                    className: (_styles_SkillProfile_module_css__WEBPACK_IMPORTED_MODULE_3___default().skill),\n                    children: header\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/SkillProfile.tsx\",\n                    lineNumber: 14,\n                    columnNumber: 17\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/SkillProfile.tsx\",\n                lineNumber: 13,\n                columnNumber: 13\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_SkillProfile_module_css__WEBPACK_IMPORTED_MODULE_3___default().influence),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                    id: (_styles_SkillProfile_module_css__WEBPACK_IMPORTED_MODULE_3___default().influence),\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_bi__WEBPACK_IMPORTED_MODULE_2__.BiCycling, {\n                            id: (_styles_SkillProfile_module_css__WEBPACK_IMPORTED_MODULE_3___default().bike)\n                        }, void 0, false, {\n                            fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/SkillProfile.tsx\",\n                            lineNumber: 18,\n                            columnNumber: 21\n                        }, undefined),\n                        \" \",\n                        name,\n                        \":\"\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/SkillProfile.tsx\",\n                    lineNumber: 17,\n                    columnNumber: 17\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/SkillProfile.tsx\",\n                lineNumber: 16,\n                columnNumber: 13\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/SkillProfile.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SkillProfile);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9Ta2lsbFByb2ZpbGUudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBeUI7QUFDZ0M7QUFDZjtBQU8xQyxNQUFNRyxlQUFnQyxDQUFDLEVBQUNDLEtBQUksRUFBRUMsT0FBTSxFQUFDLEdBQUs7SUFDdEQscUJBQ0ksOERBQUNDOzswQkFDRyw4REFBQ0M7MEJBQ0csNEVBQUNDO29CQUFHQyxXQUFXUiw4RUFBZTs4QkFBR0k7Ozs7Ozs7Ozs7OzBCQUVyQyw4REFBQ0U7Z0JBQUlFLFdBQVdSLGtGQUFtQjswQkFDL0IsNEVBQUNPO29CQUFHSSxJQUFJWCxrRkFBbUI7O3NDQUN2Qiw4REFBQ0MscURBQVNBOzRCQUFDVSxJQUFJWCw2RUFBYzs7Ozs7O3dCQUFHO3dCQUFFRzt3QkFBSzs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSzNEO0FBRUEsaUVBQWVELFlBQVlBLEVBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jYXJkLWFwcC8uL3NyYy9jb21wb25lbnRzL1NraWxsUHJvZmlsZS50c3g/Mzg4NSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgc2tpbGxjYXJkIGZyb20gJy4uL3N0eWxlcy9Ta2lsbFByb2ZpbGUubW9kdWxlLmNzcydcbmltcG9ydCB7IEJpQ3ljbGluZyB9IGZyb20gJ3JlYWN0LWljb25zL2JpJ1xuXG50eXBlIHNraWxscyA9IHtcbiAgICBuYW1lOiBzdHJpbmcsXG4gICAgaGVhZGVyOiBzdHJpbmdcbn1cblxuY29uc3QgU2tpbGxQcm9maWxlOiBSZWFjdC5GQzxza2lsbHM+ID0oe25hbWUsIGhlYWRlcn0pID0+IHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8bWFpbj5cbiAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT17c2tpbGxjYXJkLnNraWxsfT57aGVhZGVyfTwvaDM+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtza2lsbGNhcmQuaW5mbHVlbmNlfT5cbiAgICAgICAgICAgICAgICA8aDMgaWQ9e3NraWxsY2FyZC5pbmZsdWVuY2V9PlxuICAgICAgICAgICAgICAgICAgICA8QmlDeWNsaW5nIGlkPXtza2lsbGNhcmQuYmlrZX0vPiB7bmFtZX06XG4gICAgICAgICAgICAgICAgPC9oMz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L21haW4+XG4gICAgKVxufVxuXG5leHBvcnQgZGVmYXVsdCBTa2lsbFByb2ZpbGVcblxuIl0sIm5hbWVzIjpbIlJlYWN0Iiwic2tpbGxjYXJkIiwiQmlDeWNsaW5nIiwiU2tpbGxQcm9maWxlIiwibmFtZSIsImhlYWRlciIsIm1haW4iLCJkaXYiLCJoMyIsImNsYXNzTmFtZSIsInNraWxsIiwiaW5mbHVlbmNlIiwiaWQiLCJiaWtlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/SkillProfile.tsx\n");
 
 /***/ }),
 
-/***/ 203:
+/***/ "./src/components/UserProfile.tsx":
+/*!****************************************!*\
+  !*** ./src/components/UserProfile.tsx ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(782);
-/* harmony import */ var _styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_icons_Fi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(253);
-/* harmony import */ var react_icons_Fi__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_Fi__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-
-const UserProfile = ({ data , image  })=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("main", {
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: (_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default().container),
-            children: [
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_Fi__WEBPACK_IMPORTED_MODULE_2__.FiHexagon, {
-                    className: (_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default().hexagon)
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                    src: image !== undefined ? image : "User doesn't exist",
-                    alt: "profile-pic",
-                    width: 80,
-                    height: 80,
-                    id: (_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default().img)
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("center", {
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                            className: (_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default().name),
-                            children: data
-                        })
-                    })
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UserProfile);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/userprofile.module.css */ \"./src/styles/userprofile.module.css\");\n/* harmony import */ var _styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react_icons_Fi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/Fi */ \"react-icons/Fi\");\n/* harmony import */ var react_icons_Fi__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_Fi__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nconst UserProfile = ({ data , image  })=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: (_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default().container),\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_Fi__WEBPACK_IMPORTED_MODULE_2__.FiHexagon, {\n                    className: (_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default().hexagon)\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/UserProfile.tsx\",\n                    lineNumber: 16,\n                    columnNumber: 17\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                    src: image !== undefined ? image : \"User doesn't exist\",\n                    alt: \"profile-pic\",\n                    width: 80,\n                    height: 80,\n                    id: (_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default().img)\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/UserProfile.tsx\",\n                    lineNumber: 17,\n                    columnNumber: 17\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"center\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                            className: (_styles_userprofile_module_css__WEBPACK_IMPORTED_MODULE_3___default().name),\n                            children: data\n                        }, void 0, false, {\n                            fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/UserProfile.tsx\",\n                            lineNumber: 20,\n                            columnNumber: 25\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/UserProfile.tsx\",\n                        lineNumber: 19,\n                        columnNumber: 21\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/UserProfile.tsx\",\n                    lineNumber: 18,\n                    columnNumber: 17\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/UserProfile.tsx\",\n            lineNumber: 15,\n            columnNumber: 13\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/components/UserProfile.tsx\",\n        lineNumber: 14,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UserProfile);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9Vc2VyUHJvZmlsZS50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUF5QjtBQUMrQjtBQUNoQjtBQVN4QyxNQUFNRyxjQUFnQyxDQUFDLEVBQUNDLEtBQUksRUFBRUMsTUFBSyxFQUFDLEdBQUs7SUFDdkQscUJBQ00sOERBQUNDO2tCQUNHLDRFQUFDQztZQUFJQyxXQUFXUCxpRkFBbUI7OzhCQUMvQiw4REFBQ0MscURBQVNBO29CQUFDTSxXQUFXUCwrRUFBaUI7Ozs7Ozs4QkFDdkMsOERBQUNVO29CQUFJQyxLQUFLUCxVQUFVUSxZQUFZUixRQUFRLG9CQUFvQjtvQkFBRVMsS0FBTTtvQkFBY0MsT0FBTztvQkFBSUMsUUFBUTtvQkFBSUMsSUFBSWhCLDJFQUFhOzs7Ozs7OEJBQzFILDhEQUFDTTs4QkFDRyw0RUFBQ1c7a0NBQ0csNEVBQUNDOzRCQUFHWCxXQUFXUCw0RUFBYztzQ0FBR0c7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU14RDtBQUNBLGlFQUFlRCxXQUFXQSxFQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyZC1hcHAvLi9zcmMvY29tcG9uZW50cy9Vc2VyUHJvZmlsZS50c3g/OWFmNSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgdXNlclN0eWxlIGZyb20gJy4uL3N0eWxlcy91c2VycHJvZmlsZS5tb2R1bGUuY3NzJ1xuaW1wb3J0IHtGaUhleGFnb259IGZyb20gJ3JlYWN0LWljb25zL0ZpJ1xuaW1wb3J0IEltYWdlIGZyb20gJ25leHQvaW1hZ2UnO1xuaW1wb3J0IHsgdXNlckFnZW50IH0gZnJvbSAnbmV4dC9zZXJ2ZXInO1xuXG50eXBlIHByb2ZpbGUgPSB7XG4gICAgZGF0YTogc3RyaW5nLFxuICAgIGltYWdlOiBzdHJpbmdcbn1cblxuY29uc3QgVXNlclByb2ZpbGU6IFJlYWN0LkZDPHByb2ZpbGU+ID0oe2RhdGEsIGltYWdlfSkgPT4ge1xuICByZXR1cm4gKFxuICAgICAgICA8bWFpbj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXt1c2VyU3R5bGUuY29udGFpbmVyfT5cbiAgICAgICAgICAgICAgICA8RmlIZXhhZ29uIGNsYXNzTmFtZT17dXNlclN0eWxlLmhleGFnb259IC8+XG4gICAgICAgICAgICAgICAgPGltZyBzcmM9e2ltYWdlICE9PSB1bmRlZmluZWQgPyBpbWFnZSA6IFwiVXNlciBkb2Vzbid0IGV4aXN0XCJ9IGFsdCA9IFwicHJvZmlsZS1waWNcIiB3aWR0aD17ODB9IGhlaWdodD17ODB9IGlkPXt1c2VyU3R5bGUuaW1nfS8+XG4gICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgICAgPGNlbnRlcj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9e3VzZXJTdHlsZS5uYW1lfT57ZGF0YX08L2gxPlxuICAgICAgICAgICAgICAgICAgICA8L2NlbnRlcj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L21haW4+XG4gICAgKVxufVxuZXhwb3J0IGRlZmF1bHQgVXNlclByb2ZpbGVcbiJdLCJuYW1lcyI6WyJSZWFjdCIsInVzZXJTdHlsZSIsIkZpSGV4YWdvbiIsIlVzZXJQcm9maWxlIiwiZGF0YSIsImltYWdlIiwibWFpbiIsImRpdiIsImNsYXNzTmFtZSIsImNvbnRhaW5lciIsImhleGFnb24iLCJpbWciLCJzcmMiLCJ1bmRlZmluZWQiLCJhbHQiLCJ3aWR0aCIsImhlaWdodCIsImlkIiwiY2VudGVyIiwiaDEiLCJuYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/UserProfile.tsx\n");
 
 /***/ }),
 
-/***/ 85:
+/***/ "./src/pages/index.tsx":
+/*!*****************************!*\
+  !*** ./src/pages/index.tsx ***!
+  \*****************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "getServerSideProps": () => (/* binding */ getServerSideProps)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(681);
-/* harmony import */ var _components_UserProfile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(203);
-/* harmony import */ var _components_SkillProfile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(329);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(648);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_index_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(498);
-/* harmony import */ var _styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_4__]);
-axios__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-
-
-
-const Home = ({ proficiency , master , personName , personPicture , valueTwo  })=>{
-    const [value, getValue] = (0,react__WEBPACK_IMPORTED_MODULE_5__.useState)("");
-    const searchFunction = (inputValue)=>{
-        getValue(inputValue);
-    };
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            children: [
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_NavBar__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
-                    name: "data",
-                    onSearch: searchFunction
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_UserProfile__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-                    data: personName,
-                    image: personPicture
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_SkillProfile__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
-                    name: "Master/Influencer",
-                    header: "Skills and Interest:"
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    children: valueTwo
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default().master),
-                        children: master.map((element)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                    className: (_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default().button),
-                                    children: element.name !== undefined ? element.name : "Username doesn't exist"
-                                })
-                            }, element.id))
-                    })
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_SkillProfile__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
-                    name: "Proficiency",
-                    header: ""
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default().master),
-                        children: proficiency.map((element)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                    className: (_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default().button),
-                                    children: element.name !== undefined ? element.name : "Username doesn't exist"
-                                })
-                            }, element.id))
-                    })
-                })
-            ]
-        })
-    });
-};
-async function getServerSideProps(context) {
-    const inputValue = context.query.input || "";
-    console.log(inputValue);
-    let person;
-    let proficiency;
-    let master;
-    let personData;
-    let personName;
-    let personPicture;
-    let valueTwo = "";
-    try {
-        if (inputValue === undefined) {
-            return;
-        } else {
-            const response = await axios__WEBPACK_IMPORTED_MODULE_4__["default"].get(`https://torre.bio/api/bios/${inputValue}`);
-            if (response === undefined) {
-                const data = {
-                    message: "No value gotten",
-                    message1: "Username Error",
-                    message3: "Username does not exist"
-                };
-                person = Object.values(data);
-            } else {
-                const data = await response.data;
-                person = Object.values(data)[2];
-                personData = Object.values(data)[0];
-                proficiency = person.filter((element)=>{
-                    return element.proficiency === "proficient";
-                });
-                master = person.filter((element)=>{
-                    return element.proficiency === "expert";
-                });
-                personName = personData.name;
-                personPicture = personData.picture;
-                console.log(proficiency);
-            }
-        }
-    } catch (err) {
-        if (err) {
-            return valueTwo = "Username doesn't exist, try again";
-        }
-    }
-    return {
-        props: {
-            proficiency,
-            master,
-            personName,
-            personPicture,
-            valueTwo
-        }
-    };
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   \"getServerSideProps\": () => (/* binding */ getServerSideProps)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/NavBar */ \"./src/components/NavBar.tsx\");\n/* harmony import */ var _components_UserProfile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/components/UserProfile */ \"./src/components/UserProfile.tsx\");\n/* harmony import */ var _components_SkillProfile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/components/SkillProfile */ \"./src/components/SkillProfile.tsx\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ \"axios\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _styles_index_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/index.module.css */ \"./src/styles/index.module.css\");\n/* harmony import */ var _styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_4__]);\naxios__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\n\n\nconst Home = ({ proficiency , master , personName , personPicture , valueTwo  })=>{\n    const [value, getValue] = (0,react__WEBPACK_IMPORTED_MODULE_5__.useState)(\"\");\n    const searchFunction = (inputValue)=>{\n        getValue(inputValue);\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_NavBar__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                    name: \"data\",\n                    onSearch: searchFunction\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                    lineNumber: 29,\n                    columnNumber: 5\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_UserProfile__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                    data: personName,\n                    image: personPicture\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                    lineNumber: 30,\n                    columnNumber: 5\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_SkillProfile__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                    name: \"Master/Influencer\",\n                    header: \"Skills and Interest:\"\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                    lineNumber: 31,\n                    columnNumber: 5\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    children: valueTwo\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                    lineNumber: 32,\n                    columnNumber: 5\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default().master),\n                        children: master.map((element)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                    className: (_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default().button),\n                                    children: element.name !== undefined ? element.name : \"Username doesn't exist\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                                    lineNumber: 40,\n                                    columnNumber: 15\n                                }, undefined)\n                            }, element.id, false, {\n                                fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                                lineNumber: 39,\n                                columnNumber: 13\n                            }, undefined))\n                    }, void 0, false, {\n                        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                        lineNumber: 36,\n                        columnNumber: 7\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                    lineNumber: 35,\n                    columnNumber: 5\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_SkillProfile__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                    name: \"Proficiency\",\n                    header: \"\"\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                    lineNumber: 46,\n                    columnNumber: 5\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default().master),\n                        children: proficiency.map((element)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                    className: (_styles_index_module_css__WEBPACK_IMPORTED_MODULE_6___default().button),\n                                    children: element.name !== undefined ? element.name : \"Username doesn't exist\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                                    lineNumber: 52,\n                                    columnNumber: 15\n                                }, undefined)\n                            }, element.id, false, {\n                                fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                                lineNumber: 51,\n                                columnNumber: 13\n                            }, undefined))\n                    }, void 0, false, {\n                        fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                        lineNumber: 48,\n                        columnNumber: 7\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n                    lineNumber: 47,\n                    columnNumber: 5\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/deca/Documents/torre_co/torre-job-profile/src/pages/index.tsx\",\n            lineNumber: 28,\n            columnNumber: 3\n        }, undefined)\n    }, void 0, false);\n};\nasync function getServerSideProps(context) {\n    const inputValue = context.query.input || \"\";\n    console.log(inputValue);\n    let person;\n    let proficiency;\n    let master;\n    let personData;\n    let personName;\n    let personPicture;\n    let valueTwo = \"\";\n    try {\n        if (inputValue === undefined) {\n            return;\n        } else {\n            const response = await axios__WEBPACK_IMPORTED_MODULE_4__[\"default\"].get(`https://torre.bio/api/bios/${inputValue}`);\n            if (response === undefined) {\n                const data = {\n                    message: \"No value gotten\",\n                    message1: \"Username Error\",\n                    message3: \"Username does not exist\"\n                };\n                person = Object.values(data);\n            } else {\n                const data = await response.data;\n                person = Object.values(data)[2];\n                personData = Object.values(data)[0];\n                proficiency = person.filter((element)=>{\n                    return element.proficiency === \"proficient\";\n                });\n                master = person.filter((element)=>{\n                    return element.proficiency === \"expert\";\n                });\n                personName = personData.name;\n                personPicture = personData.picture;\n                console.log(proficiency);\n            }\n        }\n    } catch (err) {\n        if (err) {\n            return valueTwo = \"Username doesn't exist, try again\";\n        }\n    }\n    return {\n        props: {\n            proficiency,\n            master,\n            personName,\n            personPicture,\n            valueTwo\n        }\n    };\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvaW5kZXgudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFDeUM7QUFDUztBQUNFO0FBQzNCO0FBQ087QUFDbUI7QUFZbkQsTUFBTU0sT0FBdUIsQ0FBQyxFQUFDQyxZQUFXLEVBQUVDLE9BQU0sRUFBRUMsV0FBVSxFQUFFQyxjQUFhLEVBQUVDLFNBQVEsRUFBQyxHQUFLO0lBQzNGLE1BQU0sQ0FBQ0MsT0FBT0MsU0FBUyxHQUFHVCwrQ0FBUUEsQ0FBQztJQUVuQyxNQUFNVSxpQkFBaUIsQ0FBQ0MsYUFBdUI7UUFDN0NGLFNBQVNFO0lBQ1g7SUFDQSxxQkFDRTtrQkFFRiw0RUFBQ0M7OzhCQUNDLDhEQUFDaEIsMERBQU1BO29CQUFDaUIsTUFBTztvQkFBT0MsVUFBVUo7Ozs7Ozs4QkFDaEMsOERBQUNiLCtEQUFXQTtvQkFBQ2tCLE1BQU1WO29CQUFZVyxPQUFTVjs7Ozs7OzhCQUN4Qyw4REFBQ1IsZ0VBQVlBO29CQUFDZSxNQUFLO29CQUFvQkksUUFBTzs7Ozs7OzhCQUM5Qyw4REFBQ0w7OEJBQ0VMOzs7Ozs7OEJBRUgsOERBQUNLOzhCQUNDLDRFQUFDQTt3QkFBSU0sV0FBV2pCLHdFQUFpQjtrQ0FFN0JHLE9BQU9lLEdBQUcsQ0FBQyxDQUFDQyx3QkFDViw4REFBQ1I7MENBQ0MsNEVBQUNTO29DQUFPSCxXQUFXakIsd0VBQWlCOzhDQUFHbUIsUUFBUVAsSUFBSSxLQUFLUyxZQUFZRixRQUFRUCxJQUFJLEdBQUcsd0JBQXdCOzs7Ozs7K0JBRG5HTyxRQUFRRyxFQUFFOzs7Ozs7Ozs7Ozs7Ozs7OEJBTzVCLDhEQUFDekIsZ0VBQVlBO29CQUFDZSxNQUFLO29CQUFjSSxRQUFPOzs7Ozs7OEJBQ3hDLDhEQUFDTDs4QkFDQyw0RUFBQ0E7d0JBQUlNLFdBQVdqQix3RUFBaUI7a0NBRTdCRSxZQUFZZ0IsR0FBRyxDQUFDLENBQUNDLHdCQUNmLDhEQUFDUjswQ0FDQyw0RUFBQ1M7b0NBQU9ILFdBQVdqQix3RUFBaUI7OENBQUdtQixRQUFRUCxJQUFJLEtBQUtTLFlBQVlGLFFBQVFQLElBQUksR0FBRyx3QkFBd0I7Ozs7OzsrQkFEbkdPLFFBQVFHLEVBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFhaEM7QUFFTyxlQUFlQyxtQkFBbUJDLE9BQXFDLEVBQUU7SUFDOUUsTUFBTWQsYUFBYWMsUUFBUUMsS0FBSyxDQUFDQyxLQUFLLElBQUk7SUFDMUNDLFFBQVFDLEdBQUcsQ0FBQ2xCO0lBQ1osSUFBSW1CO0lBQ0osSUFBSTNCO0lBQ0osSUFBSUM7SUFDSixJQUFJMkI7SUFDSixJQUFJMUI7SUFDSixJQUFJQztJQUNKLElBQUlDLFdBQW1CO0lBQ3ZCLElBQUk7UUFDRixJQUFHSSxlQUFlVyxXQUFVO1lBQzFCO1FBQ0YsT0FBSztZQUNILE1BQU1VLFdBQVcsTUFBTWpDLGlEQUFTLENBQUMsQ0FBQywyQkFBMkIsRUFBRVksV0FBVyxDQUFDO1lBQzNFLElBQUdxQixhQUFhVixXQUFVO2dCQUN4QixNQUFNUCxPQUFPO29CQUFDbUIsU0FBUztvQkFBbUJDLFVBQVU7b0JBQWtCQyxVQUFVO2dCQUF5QjtnQkFDekdOLFNBQVNPLE9BQU9DLE1BQU0sQ0FBQ3ZCO1lBQ3pCLE9BQUs7Z0JBQ0gsTUFBTUEsT0FBTyxNQUFNaUIsU0FBU2pCLElBQUk7Z0JBQ2hDZSxTQUFTTyxPQUFPQyxNQUFNLENBQUN2QixLQUFLLENBQUMsRUFBRTtnQkFDL0JnQixhQUFhTSxPQUFPQyxNQUFNLENBQUN2QixLQUFLLENBQUMsRUFBRTtnQkFFbkNaLGNBQWMyQixPQUFPUyxNQUFNLENBQUMsQ0FBQ25CLFVBQWdCO29CQUMzQyxPQUFPQSxRQUFRakIsV0FBVyxLQUFLO2dCQUNqQztnQkFDQUMsU0FBUzBCLE9BQU9TLE1BQU0sQ0FBQyxDQUFDbkIsVUFBb0M7b0JBQzFELE9BQU9BLFFBQVFqQixXQUFXLEtBQUs7Z0JBQ2pDO2dCQUNBRSxhQUFhMEIsV0FBV2xCLElBQUk7Z0JBQzVCUCxnQkFBZ0J5QixXQUFXUyxPQUFPO2dCQUNsQ1osUUFBUUMsR0FBRyxDQUFDMUI7WUFDZCxDQUFDO1FBRUgsQ0FBQztJQUNILEVBQUMsT0FBTXNDLEtBQUk7UUFDVCxJQUFHQSxLQUFJO1lBQ0wsT0FBT2xDLFdBQVc7UUFDcEIsQ0FBQztJQUNIO0lBSUEsT0FBTztRQUFFbUMsT0FBTztZQUFFdkM7WUFBYUM7WUFBUUM7WUFBWUM7WUFBZUM7UUFBUztJQUFFO0FBRS9FLENBQUM7QUFDRCxpRUFBZUwsSUFBSUEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2NhcmQtYXBwLy4vc3JjL3BhZ2VzL2luZGV4LnRzeD8xOWEwIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBJbWFnZSBmcm9tICduZXh0L2ltYWdlJ1xuaW1wb3J0IE5hdkJhciBmcm9tICcuLi9jb21wb25lbnRzL05hdkJhcidcbmltcG9ydCBVc2VyUHJvZmlsZSBmcm9tICdAL2NvbXBvbmVudHMvVXNlclByb2ZpbGUnXG5pbXBvcnQgU2tpbGxQcm9maWxlIGZyb20gJ0AvY29tcG9uZW50cy9Ta2lsbFByb2ZpbGUnXG5pbXBvcnQgYXhpb3MgZnJvbSAnYXhpb3MnXG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IGluZGV4U3R5bGUgZnJvbSAnLi4vc3R5bGVzL2luZGV4Lm1vZHVsZS5jc3MnXG5cblxudHlwZSBob21lID0geyAgXG4gIHByb2ZpY2llbmN5OiBzdHJpbmdbXSxcbiAgbWFzdGVyOiBzdHJpbmdbXSxcbiAgcGVyc29uTmFtZTogc3RyaW5nLFxuICBwZXJzb25QaWN0dXJlOiBzdHJpbmcsXG4gIHZhbHVlVHdvOiBzdHJpbmd8dW5kZWZpbmVkO1xufVxuXG5cbmNvbnN0IEhvbWU6IFJlYWN0LkZDPGhvbWU+ID0gKHtwcm9maWNpZW5jeSwgbWFzdGVyLCBwZXJzb25OYW1lLCBwZXJzb25QaWN0dXJlLCB2YWx1ZVR3b30pID0+IHtcbiAgY29uc3QgW3ZhbHVlLCBnZXRWYWx1ZV0gPSB1c2VTdGF0ZSgnJylcbiAgXG4gIGNvbnN0IHNlYXJjaEZ1bmN0aW9uID0gKGlucHV0VmFsdWU6IHN0cmluZykgPT4ge1xuICAgIGdldFZhbHVlKGlucHV0VmFsdWUpXG4gIH1cbiAgcmV0dXJuIChcbiAgICA8PlxuICB7LypUaGlzIGlzIHRoZSBjb250YWluZXIgKi99XG4gIDxkaXY+XG4gICAgPE5hdkJhciBuYW1lID0gJ2RhdGEnIG9uU2VhcmNoPXtzZWFyY2hGdW5jdGlvbn0gLz5cbiAgICA8VXNlclByb2ZpbGUgZGF0YT17cGVyc29uTmFtZX0gaW1hZ2UgPSB7cGVyc29uUGljdHVyZX0gLz5cbiAgICA8U2tpbGxQcm9maWxlIG5hbWU9XCJNYXN0ZXIvSW5mbHVlbmNlclwiIGhlYWRlcj1cIlNraWxscyBhbmQgSW50ZXJlc3Q6XCIgIC8+XG4gICAgPGRpdj5cbiAgICAgIHt2YWx1ZVR3b31cbiAgICA8L2Rpdj5cbiAgICA8ZGl2ID5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPXtpbmRleFN0eWxlLm1hc3Rlcn0+XG4gICAgICAgIHtcbiAgICAgICAgICBtYXN0ZXIubWFwKChlbGVtZW50OiBhbnkpID0+IChcbiAgICAgICAgICAgIDxkaXYga2V5PXtlbGVtZW50LmlkfT5cbiAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9e2luZGV4U3R5bGUuYnV0dG9ufT57ZWxlbWVudC5uYW1lICE9PSB1bmRlZmluZWQgPyBlbGVtZW50Lm5hbWUgOiBcIlVzZXJuYW1lIGRvZXNuJ3QgZXhpc3RcIn08L2J1dHRvbj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICkpXG4gICAgICAgIH1cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICAgIDxTa2lsbFByb2ZpbGUgbmFtZT1cIlByb2ZpY2llbmN5XCIgaGVhZGVyPVwiXCIgIC8+XG4gICAgPGRpdiA+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT17aW5kZXhTdHlsZS5tYXN0ZXJ9PlxuICAgICAgICB7XG4gICAgICAgICAgcHJvZmljaWVuY3kubWFwKChlbGVtZW50OiBhbnkpID0+IChcbiAgICAgICAgICAgIDxkaXYga2V5PXtlbGVtZW50LmlkfT5cbiAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9e2luZGV4U3R5bGUuYnV0dG9ufT57ZWxlbWVudC5uYW1lICE9PSB1bmRlZmluZWQgPyBlbGVtZW50Lm5hbWUgOiBcIlVzZXJuYW1lIGRvZXNuJ3QgZXhpc3RcIn08L2J1dHRvbj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICkpXG4gICAgICAgIH1cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICAgIFxuICAgIFxuICA8L2Rpdj5cbiAgey8qVGhpcyBpcyB0aGUgZW5kIG9mIHRoZSBjb250YWluZXIgKi99XG48Lz5cbiAgKVxufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0U2VydmVyU2lkZVByb3BzKGNvbnRleHQ6IHsgcXVlcnk6IHsgaW5wdXQ6IHN0cmluZyB9IH0pIHtcbiAgY29uc3QgaW5wdXRWYWx1ZSA9IGNvbnRleHQucXVlcnkuaW5wdXQgfHwgJydcbiAgY29uc29sZS5sb2coaW5wdXRWYWx1ZSlcbiAgbGV0IHBlcnNvbjogYW55XG4gIGxldCBwcm9maWNpZW5jeTtcbiAgbGV0IG1hc3RlcjtcbiAgbGV0IHBlcnNvbkRhdGE6IGFueVxuICBsZXQgcGVyc29uTmFtZTogYW55XG4gIGxldCBwZXJzb25QaWN0dXJlO1xuICBsZXQgdmFsdWVUd286IHN0cmluZyA9ICcnO1xuICB0cnkge1xuICAgIGlmKGlucHV0VmFsdWUgPT09IHVuZGVmaW5lZCl7XG4gICAgICByZXR1cm5cbiAgICB9ZWxzZXtcbiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXhpb3MuZ2V0KGBodHRwczovL3RvcnJlLmJpby9hcGkvYmlvcy8ke2lucHV0VmFsdWV9YCk7XG4gICAgICBpZihyZXNwb25zZSA9PT0gdW5kZWZpbmVkKXtcbiAgICAgICAgY29uc3QgZGF0YSA9IHttZXNzYWdlOiAnTm8gdmFsdWUgZ290dGVuJywgbWVzc2FnZTE6ICdVc2VybmFtZSBFcnJvcicsIG1lc3NhZ2UzOiAnVXNlcm5hbWUgZG9lcyBub3QgZXhpc3QnfVxuICAgICAgICBwZXJzb24gPSBPYmplY3QudmFsdWVzKGRhdGEpXG4gICAgICB9ZWxzZXtcbiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmRhdGE7XG4gICAgICAgIHBlcnNvbiA9IE9iamVjdC52YWx1ZXMoZGF0YSlbMl1cbiAgICAgICAgcGVyc29uRGF0YSA9IE9iamVjdC52YWx1ZXMoZGF0YSlbMF1cbiAgICAgICAgXG4gICAgICAgIHByb2ZpY2llbmN5ID0gcGVyc29uLmZpbHRlcigoZWxlbWVudDogYW55KSA9PntcbiAgICAgICAgICByZXR1cm4gZWxlbWVudC5wcm9maWNpZW5jeSA9PT0gJ3Byb2ZpY2llbnQnXG4gICAgICAgIH0gKVxuICAgICAgICBtYXN0ZXIgPSBwZXJzb24uZmlsdGVyKChlbGVtZW50OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPikgPT57XG4gICAgICAgICAgcmV0dXJuIGVsZW1lbnQucHJvZmljaWVuY3kgPT09ICdleHBlcnQnXG4gICAgICAgIH0pXG4gICAgICAgIHBlcnNvbk5hbWUgPSBwZXJzb25EYXRhLm5hbWVcbiAgICAgICAgcGVyc29uUGljdHVyZSA9IHBlcnNvbkRhdGEucGljdHVyZVxuICAgICAgICBjb25zb2xlLmxvZyhwcm9maWNpZW5jeSlcbiAgICAgIH1cbiAgICAgIFxuICAgIH1cbiAgfWNhdGNoKGVycil7XG4gICAgaWYoZXJyKXtcbiAgICAgIHJldHVybiB2YWx1ZVR3byA9IFwiVXNlcm5hbWUgZG9lc24ndCBleGlzdCwgdHJ5IGFnYWluXCJcbiAgICB9XG4gIH1cblxuXG4gIFxuICByZXR1cm4geyBwcm9wczogeyBwcm9maWNpZW5jeSwgbWFzdGVyLCBwZXJzb25OYW1lLCBwZXJzb25QaWN0dXJlLCB2YWx1ZVR3byB9IH07XG4gIFxufVxuZXhwb3J0IGRlZmF1bHQgSG9tZTsiXSwibmFtZXMiOlsiTmF2QmFyIiwiVXNlclByb2ZpbGUiLCJTa2lsbFByb2ZpbGUiLCJheGlvcyIsInVzZVN0YXRlIiwiaW5kZXhTdHlsZSIsIkhvbWUiLCJwcm9maWNpZW5jeSIsIm1hc3RlciIsInBlcnNvbk5hbWUiLCJwZXJzb25QaWN0dXJlIiwidmFsdWVUd28iLCJ2YWx1ZSIsImdldFZhbHVlIiwic2VhcmNoRnVuY3Rpb24iLCJpbnB1dFZhbHVlIiwiZGl2IiwibmFtZSIsIm9uU2VhcmNoIiwiZGF0YSIsImltYWdlIiwiaGVhZGVyIiwiY2xhc3NOYW1lIiwibWFwIiwiZWxlbWVudCIsImJ1dHRvbiIsInVuZGVmaW5lZCIsImlkIiwiZ2V0U2VydmVyU2lkZVByb3BzIiwiY29udGV4dCIsInF1ZXJ5IiwiaW5wdXQiLCJjb25zb2xlIiwibG9nIiwicGVyc29uIiwicGVyc29uRGF0YSIsInJlc3BvbnNlIiwiZ2V0IiwibWVzc2FnZSIsIm1lc3NhZ2UxIiwibWVzc2FnZTMiLCJPYmplY3QiLCJ2YWx1ZXMiLCJmaWx0ZXIiLCJwaWN0dXJlIiwiZXJyIiwicHJvcHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/pages/index.tsx\n");
 
 /***/ }),
 
-/***/ 689:
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -418,7 +118,10 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 253:
+/***/ "react-icons/Fi":
+/*!*********************************!*\
+  !*** external "react-icons/Fi" ***!
+  \*********************************/
 /***/ ((module) => {
 
 "use strict";
@@ -426,15 +129,43 @@ module.exports = require("react-icons/Fi");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react-icons/bi":
+/*!*********************************!*\
+  !*** external "react-icons/bi" ***!
+  \*********************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react-icons/bi");
 
 /***/ }),
 
-/***/ 648:
+/***/ "react-icons/im":
+/*!*********************************!*\
+  !*** external "react-icons/im" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-icons/im");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -449,7 +180,7 @@ module.exports = import("axios");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(85));
+var __webpack_exports__ = (__webpack_exec__("./src/pages/index.tsx"));
 module.exports = __webpack_exports__;
 
 })();
