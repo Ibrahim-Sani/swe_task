@@ -21,7 +21,7 @@ export async function getServerSideProps() {
     const data = response.data;
 
     // Pass data tot he page component as props
-    return { props: data  };
+    return { props: { data } };
 }
 
 export default MyPage;
