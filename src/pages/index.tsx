@@ -75,7 +75,11 @@ export async function getServerSideProps(context: { query: { input: string } }) 
   let valueTwo: string = '';
   try {
     if(inputValue === undefined){
-      return {props :{}}
+      return {props :{proficiency: [],
+        master: [],
+        personName: "",
+        personPicture: "",
+        valueTwo: "",}}
     }else{
       const response = await axios.get(`https://torre.bio/api/bios/${inputValue}`);
       if(response === undefined){
@@ -83,7 +87,12 @@ export async function getServerSideProps(context: { query: { input: string } }) 
           message: 'No value gotten', message1: 'Username Error', message3: 'Username does not exist'
         };
         person = Object.values(data)
-        return {props :{person}}
+        return {props :{proficiency: [],
+          master: [],
+          personName: "",
+          personPicture: "",
+          valueTwo: "",
+          person,}}
       }else{
         const data = await response.data;
         person = Object.values(data)[2]
@@ -103,7 +112,11 @@ export async function getServerSideProps(context: { query: { input: string } }) 
     }
   }catch(err){
     if(err){
-      return { props: { valueTwo: "Username doesn't exist, try again" } };
+      return { props: { proficiency: [],
+        master: [],
+        personName: "",
+        personPicture: "",
+        valueTwo: "Username doesn't exist, try again",} };
     }
   }
 
