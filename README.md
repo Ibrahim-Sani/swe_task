@@ -1,38 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Torre Skills Profile Web App
 
-## Getting Started
+This [Web app](https://torre-job-profile.vercel.app/) calls the torre API and lists the skills and Proficiency of any given user
 
-First, run the development server:
+## Accessing Torre Skills Profile
+
+Link to deployed App : [torre skills profile](https://torre-job-profile.vercel.app/)
+
+### Running on a Local Server
+
+- First, create a Next.js app using
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+yarn create next-app
+```
+
+```bash
+yarn dev or
+yarn start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+#### **Testing the Application**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+#### Default Landing Page
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The default landing page is the first webpage that a user sees when they visit a website or click on a link to the site. This page serves as an introduction to the site and its content, with the goal of engaging users and encouraging them to explore further. The default landing page for this project is given below:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![1682581786287](image/README/1682581786287.png)
 
-## Learn More
+#### **Searching the Username "renanpeixotox"**
 
-To learn more about Next.js, take a look at the following resources:
+- The following output is displayed when the given username "renanpeixotox" is searched.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![1682581404743](image/README/1682581404743.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### **Searching the Username "torrenegra"**
 
-## Deploy on Vercel
+The following output is displayed when the given username "torrenegra" is searched.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### ![1682582873097](image/README/1682582873097.png)Deployed on Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This webapp was deployed onThe easiest way to deploy Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
