@@ -79,7 +79,9 @@ export async function getServerSideProps(context: { query: { input: string } }) 
     }else{
       const response = await axios.get(`https://torre.bio/api/bios/${inputValue}`);
       if(response === undefined){
-        const data = {message: 'No value gotten', message1: 'Username Error', message3: 'Username does not exist'}
+        const data = {
+          message: 'No value gotten', message1: 'Username Error', message3: 'Username does not exist'
+        };
         person = Object.values(data)
       }else{
         const data = await response.data;
