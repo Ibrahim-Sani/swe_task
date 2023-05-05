@@ -41,9 +41,7 @@ const Home: React.FC<home> = ({proficiency,
   const [popAction, setPopAction] = useState(null)
   const [showItem, setShowItem] = useState('5.5rem')
   const [isVisible, setIsVisible] = useState(true)
-  const lengthOfWords = summaryBio.length
-  const halfOfWords = Math.ceil(lengthOfWords/2)
-  const urlRegex = /\bhttps?:\/\/\S+/gi;
+
   const cleanStr = summaryBio.replace(/&#x27;/g, "'");
   
  
@@ -330,34 +328,8 @@ export async function getServerSideProps(context: { query: { input: string } }) 
         profession = personData.professionalHeadline
         location = personData.location.name
         pictureThumbnail = personData.pictureThumbnail
-        //console.log(jobs)
-
-        const len = jobs.map((element: any) => {
-          return element.name
-        }).length
-        //console.log(personData)
-
-      }
-      let input = 'renanpeixotox'
-      const resp = await axios.get(`https://torre.bio/api/bios/${input}`)
-      if(resp === undefined){
-        return {
-          props: { proficiency: [],
-            master: [],
-            personName: "",
-            personPicture: "",
-            valueTwo: "Username doesn't exist, try again"
-          }
-
-        }
-      }else{
-        const data = await resp.data
-        const keyWords = Object.keys(data)
-        const valWords = Object.values(data)
-        const person_profile = valWords[0]
-        const interest = valWords[3]
-        
       
+
       }
       
     }
@@ -367,7 +339,11 @@ export async function getServerSideProps(context: { query: { input: string } }) 
         master: [],
         personName: "",
         personPicture: "",
-        valueTwo: "Username doesn't exist, try again",} };
+        valueTwo: "Username doesn't exist, try again",
+        job_names: [], org_name: [], 
+     job_responsibilities: [], job_orgs: [], pictureThumbnail: '', summaryBio: '', location: '', profession: ''
+      
+      } };
     }
   }
   
