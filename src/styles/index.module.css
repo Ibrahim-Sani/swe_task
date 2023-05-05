@@ -1,14 +1,269 @@
-.master{
+.body{
+    gap: 1.7rem;
+    margin-bottom: 1rem;
+    padding-left: 3.4rem;
+    padding-bottom: 2rem;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+.container0{
+    width: 25rem;
+    position: relative;
+    overflow-y: scroll;
+    height: 84vh;
+    border: solid none black;
+    border-radius: 0.5rem;
+    box-shadow: rgb(75, 73, 73) 0.3rem 0.5rem 1rem;
+    margin-left: 1rem;
+    padding: 16px;
+
+}
+.sum{
+    transition: all 3s ease-in;
+    overflow: hidden;
+}
+.sumbutton:hover{
+    width: 2rem;
+    background-color: aqua;
+    opacity: 0.7;
+    transition: all 1s ease-in-out;
+}
+
+#img{
+    width: fit-content;
+    height: 100%;
+}
+.container1{
+    
+    width: 25rem;
+    position: relative;
+    overflow-y: scroll;
+    height: 84vh;
+    border: solid none black;
+    border-radius: 0.5rem;
+    box-shadow: rgb(75, 73, 73) 0.3rem 0.5rem 1rem;
+    padding: 16px;
+    margin-left: 1rem;
+    color: rgb(175, 176, 178)
+
+
+}
+.master1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 1rem;
+    
+}
+.master2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
     
 }
 .button{
     border: none 1px rgba(110, 122, 122, 0.85);
     border-radius: 14px;
-    padding: 5px;
+    padding: 8px;
     margin-left: 1rem;
     margin-top: 1rem;
     background-color:rgba(100, 101, 101, 0.95) ;
+    transition: all 1s ease-in-out;
+    color: rgb(175, 176, 178)
+}
+.button:hover{
+    background-color: rgba(37, 42, 42, 0.95);
+    color: rgb(175, 176, 178);
+    transition: all 1s ease-in-out;
+}
+/* Pop Up button */
+.popUp{
+    width: 20rem;
+    z-index: 7;
+    border: solid 1px;
+    border-radius: 9px;
+    padding: 5px;
+    background-color: rgb(145, 145, 145);
+    color: black;
+    transition: all 4s ease-in-out;
+
+}
+.button:hover > .popUp{
+    visibility: visible;
+}
+
+
+.container2{
+    width: 25rem;
+    position: relative;
+    overflow-y: scroll;
+    height: 84vh;
+    border: solid none black;
+    border-radius: 0.5rem;
+    box-shadow: rgb(75, 73, 73) 0.3rem 0.5rem 1rem;
+    margin-left: 1rem;
+    padding: 0rem;
+    color: rgb(175, 176, 178);
+
+}
+.header {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    
+}
+.head{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.breaker{
+    margin-left: -0.5rem;
+    height:12px;
+}
+.information{
+    margin-left: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+#index1{
+    width: 90%;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    white-space: none;
+    
+}
+.parag{
+    white-space: none;
+    position: relative;
+    margin-right: 0.5rem;
+
+}
+.span{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(175, 176, 178);
+    
+}
+.span1{
+    margin-left: 0.9rem;
+    font-size: 12px;
+    color: rgb(175, 176, 178);
+
+}
+#parag{
+    white-space: none;
+    margin-top: -1.3rem;
+    position: relative;
+    margin-left: 2.5rem;
+    line-height: 1rem;
+    
+}
+#index5{
+    list-style:circle;
+    font-size: 12px;
+    margin-left: 1rem;
+    line-height: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    color: rgb(175, 176, 178);
+
+}
+@media only screen and (max-width: 375px),
+(max-width: 414px) {
+    .body{
+        display: flex;
+        margin-bottom: 0rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        margin-left: 0rem;
+       
+    }
+    .container1{
+        width: 24rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+    
+    }
+    .container2{
+        width: 24rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+    
+    }
+    .container0{
+        width: 24rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+       
+    }
+
+}
+@media only screen and (max-width: 768px),
+(max-width: 1024px) {
+    .body{
+        display: block;
+        margin-bottom: 0rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        margin-left: 0rem;
+       
+    }
+    .container1{
+        width: 24.3rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+    
+    }
+    .container2{
+        width: 24.3rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+    
+    }
+    .container0{
+        width: 24.3rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+       
+    }
+
+  
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+    .body{
+        display: block;
+        margin-bottom: 0rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        margin-left: 0rem;
+       
+       
+    }
+    .container1{
+        width: 47rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+    
+    }
+    .container2{
+        width: 47rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+    
+    }
+    .container0{
+        width: 47rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+       
+    }
+
 }

@@ -17,6 +17,7 @@
 }
 
 body {
+  width: 100%;
   color: rgb(var(--foreground-rgb));
-  background-color: #3f3f41;
+  background-color: rgb(39, 41, 45);
 }
